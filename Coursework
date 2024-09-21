@@ -1,0 +1,13 @@
+<?php
+$name=readline("Name:");
+$address=readline("Home:");
+$DOB=readline("Date of birth");
+$cur_yr=readline("current year");
+$birth_year=readline("birth year");
+$age=$cur_yr-$birth_year;
+echo "my name is $name";
+echo "\nAm from $address";
+echo "\n$address city welcomes you back home AIDS KILLS.";
+echo "\n$name your $age years old today!!!";
+
+?>
